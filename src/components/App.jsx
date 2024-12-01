@@ -1,7 +1,7 @@
 import Layout from "./Layout/Layout";
 import ContactForm from "./ContactForm/ContactForm";
-import SearchBar from "./SearchBar/SearchBar";
-import ContactsList from "./ContactsList/ContactsList";
+import SearchBox from "./SearchBox/SearchBox";
+import ContactList from "./ContactList/ContactList";
 
 const App = () => {
   return (
@@ -9,8 +9,8 @@ const App = () => {
       <Layout>
         <h1>Phonebook</h1>
         <ContactForm />
-        <SearchBar />
-        <ContactsList/>
+        <SearchBox />
+        <ContactList/>
       </Layout>
     </>
 )

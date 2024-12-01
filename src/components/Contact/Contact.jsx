@@ -1,8 +1,8 @@
-import s from './Contacts.module.css';
+import s from './Contact.module.css';
 import { useDispatch } from 'react-redux';
 import { removeContact } from '../../redux/contactsSlice';
 
-const Contacts = ({contact, id}) => {
+const Contact = ({contact, id}) => {
     const dispatch = useDispatch();
 
     return (
@@ -20,4 +20,4 @@ const Contacts = ({contact, id}) => {
     )
 }
 
-export default Contacts
+export default Contact
